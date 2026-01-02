@@ -1,0 +1,194 @@
+
+
+.home{
+    
+    display: grid;
+    grid-template-columns: 1.5fr 4fr 1.5fr;
+    column-gap: 10px;
+    border:2px solid rgb(208, 205, 205);
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding:1px;
+
+    
+    
+    
+}
+
+.left-section{
+    background-color: rgba(195, 185, 223, 0.452); 
+    position: relative;
+  
+    
+}
+.left-section-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    left:40px;
+    text-align: left;
+    height: 200px;
+    
+
+}
+.menu{
+    padding: 10px;
+}
+
+.menu:hover{
+    background-color: rgb(102, 202, 230);
+    border-radius: 10px;
+    transition: 0.4s;
+}
+.menu.active{
+    background-color: rgb(151, 43, 43);
+}
+
+.menu_bottom
+{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+  
+   
+   
+}
+.menu_bottom div{
+    padding: 10px;
+    display: flex;
+  
+    
+}
+.menu_bottom div:hover{
+     background-color: rgb(102, 202, 230);
+     border-radius: 10px;
+     
+}
+
+
+
+
+
+
+.middle-section{
+   
+    display: flex;
+    
+   flex-direction: column;
+    gap:5px;
+    
+}
+
+
+.middle_top{
+    display:flex;
+    justify-content: space-between; 
+    column-gap: 5px; 
+
+    
+    
+}
+
+
+.middle_top div{
+    background-color: rgb(200, 200, 206);
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.middle_middle{
+    height: 200px;
+}
+
+
+.middle-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:10px;
+    padding: 0px;
+    margin: 0px;
+ 
+
+}
+.middle-bottom_left{
+    width: 50%;
+    display: flex;             
+    flex-direction: column;    
+}
+
+.middle-bottom_right{
+    width: 50%;
+
+}
+
+
+.right_section_transactions {
+    display: flex;
+    flex-direction: column;
+   
+    gap: 15px;
+}
+
+
+.transaction {
+    display: grid;
+    grid-template-columns: 40px 1fr auto;
+    align-items: center;
+    gap: 12px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+
+.icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+
+.icon.orange {
+    background-color: rgb(253, 230, 138); 
+}
+
+.icon.purple {
+    background-color: rgb(233, 213, 255); 
+}
+
+.icon.blue {
+    background-color: rgb(191, 219, 254); 
+}
+
+
+
+.details .title {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.details .subtitle {
+    font-size: 12px;
+    color: gray;
+}
+
+
+.amount {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.amount.negative {
+    color: #111;
+}
+
+.amount.positive {
+    color: #10b981;
+}
+
+
