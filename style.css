@@ -139,7 +139,9 @@
 
 }
 
-
+.right-section{
+    padding-bottom: 0px;
+}
 .right_section_transactions {
     display: flex;
     flex-direction: column;
@@ -153,7 +155,7 @@
     grid-template-columns: 40px 1fr auto;
     align-items: center;
     gap: 12px;
-    padding-bottom: 10px;
+    padding-bottom: 11px;
     border-bottom: 1px solid #e5e7eb;
 }
 
